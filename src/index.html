@@ -1,98 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TailWind test</title>
-    <link href="./output.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TailWind test</title>
+  <link href="./output.css" rel="stylesheet" />
 </head>
-<body class="bg-neutral-900 font-bold font-sans">
+<body class="bg-neutral-900 font-sans">
 
-    <div class="flex flex-row mt-6 gap-10 ">
+  <div class="flex flex-row mt-6 gap-10 justify-center">
+    <div class="flex flex-col gap-6">
 
-        <nav class="flex flex-col bg-neutral-950 w-[10%] h-[50%] border-[2px] rounded-2xl py-5 mx-[-12px] justify-center items-center">
-            <a href="index.html" class="font-bold rounded px-4 py-3 text-indigo-700 hover:text-white text-[20px] relative border-b-2 border-transparent hover:border-indigo-700 transition-all duration-300 text-center">Home</a>
-            <a href="about.html" class="font-bold rounded px-4 py-3 text-indigo-700 hover:text-white text-[20px] relative border-b-2 border-transparent hover:border-indigo-700 transition-all duration-300 text-center">About</a>
-        </nav>
+      <!-- Box Profil -->
+      <div class="flex flex-col bg-neutral-800 border border-neutral-700 shadow-lg shadow-black/40 rounded-2xl py-5 justify-center items-center gap-4 px-6">
 
-        <div class="flex flex-col gap-6">
-
-            <div class="flex flex-col bg-neutral-950 border-[2px] rounded-2xl py-5 justify-center items-center gap-4 px-6">
-
-                <div class="flex flex-row justify-center items-center gap-2">
-                    <img class="h-15 w-15 rounded-2xl py-2 " src="img/Me.jpg" alt=""/>
-                    <p class="text-xl font-semibold text-indigo-700">Matthieu</p>
-                </div>
-
-                <div class="flex flex-row bg-black border-[2px] rounded-2xl py-2 gap-4 px-2">
-                    <div class="bg-neutral-800 border-[2px] rounded-2xl px-3">
-                        <p>🌍Francais ,Anglais</p>
-                    </div>
-                    <div class="bg-neutral-800 border-[2px] rounded-2xl px-3">
-                        <p>📍France</p>
-                    </div>
-                    <div class="bg-neutral-800 border-[2px] rounded-2xl px-3">
-                        <p>🏆Sportif </p>
-                    </div>
-                </div>
-                
-                <div class="flex flex-row justify-center items-center gap-2">
-                    <a href="https://www.linkedin.com/in/matthieu-charroin-a62855329/" target="_blank"><img src="img/linkedin.png" class="h-7 w-7 border-[2px] rounded-2xl " alt=""></a>
-                    <a href="https://www.instagram.com/matthieu_chr/" target="_blank"><img src="img/instagram.png" class="h-7 w-7 border-[2px] rounded-2xl " alt=""></a>
-                    <a href="https://git.iut-orsay.fr/dashboard/projects/personal" target="_blank"><img src="img/github.png" class="h-7 w-7" alt=""></a>
-
-                </div>
-
-
-            </div>
-
-            <div class="flex flex-col bg-neutral-950 border-[2px] rounded-2xl py-5 gap-4 px-6">
-                <div class="flex flex-row items-center gap-2">
-                    <img class="h-15 w-15" src="img/skills.png" alt="">
-                    <p class="text-xl text-white">Competences</p>
-                </div>
-                
-                <div class="flex flex-row items-center gap-5">
-
-                    <div class="flex flex-row gap-1 items-center">
-                        <img class="h-7 w-7" src="img/cpp.png" alt="">
-                        <p class="text-indigo-700">C++</p>
-                    </div>
-                    <div class="flex flex-row gap-1 items-center">
-                        <img class="h-7 w-7" src="img/java.png" alt="">
-                        <p class="text-indigo-700">Java</p>
-                    </div>
-                    <div class="flex flex-row items-center gap-1">
-                        <img class="h-7 w-7" src="img/html-5.png" alt="">
-                        <p class="text-indigo-700">Html</p>
-                    </div>
-                    <div class="flex flex-row items-center gap-1">
-                        <img class="h-7 w-7" src="img/vsc.png" alt="">
-                        <p class="text-indigo-700">WPF</p>
-                    </div>
-                    <div>
-                        <img class="h-7 w-7" src="img/sql.png" alt="">
-                    </div>
-                    <div class="flex flex-row items-center gap-1">
-                        <img class="h-7 w-7" src="img/linux.png" alt="">
-                        <p class="text-indigo-700">Linux</p>
-                    </div>
-                    
-                </div>
-
-            </div>
-
-            <div class="flex flex-col bg-neutral-950 border-[2px] rounded-2xl py-5 gap-4 px-6">
-
-                <div class="flex flex-row items-center gap-2">
-                    <img class="h-7 w-7" src="img/mallette.png" alt="">
-                    <p class="text-xl text-white">Projets</p>
-                </div>
-
-            </div>
-
+        <div class="flex flex-row justify-center items-center gap-2">
+          <img class="h-15 w-15 rounded-2xl py-2" src="img/Me.jpg" alt="" />
+          <p class="text-xl font-semibold text-indigo-700">Matthieu</p>
         </div>
 
+        <!-- Langues & localisation -->
+        <div class="flex flex-row bg-neutral-700 border border-neutral-600 rounded-2xl py-2 gap-4 px-2">
+          <div class="bg-indigo-700 border border-neutral-600 rounded-2xl px-3">
+            <p>🌍Francais ,Anglais</p>
+          </div>
+          <div class="bg-indigo-700 border border-neutral-600 rounded-2xl px-3">
+            <p>📍France</p>
+          </div>
+          <div class="bg-indigo-700 border border-neutral-600 rounded-2xl px-3">
+            <p>🏆Sportif</p>
+          </div>
+        </div>
+
+        <!-- Réseaux -->
+        <div class="flex flex-row justify-center items-center gap-2">
+          <a href="https://www.linkedin.com/in/matthieu-charroin-a62855329/" target="_blank"><img src="img/linkedin.png" class="h-7 w-7 rounded-2xl" alt=""></a>
+          <a href="https://www.instagram.com/matthieu_chr/" target="_blank"><img src="img/instagram.png" class="h-7 w-7 rounded-2xl" alt=""></a>
+          <a href="https://github.com/Azly-blt" target="_blank"><img src="img/github.png" class="h-7 w-7 rounded-2xl" alt=""></a>
+        </div>
+      </div>
+
+      <!-- Box Compétences -->
+      <div class="flex flex-col bg-neutral-800 border border-neutral-700 shadow-lg shadow-black/40 rounded-2xl py-5 gap-4 px-6">
+        <div class="flex flex-row items-center gap-2">
+          <p class="text-xl text-white">Competences</p>
+        </div>
+
+        <div class="flex flex-row items-center gap-5">
+          <div class="flex flex-row gap-1 items-center">
+            <img class="h-7 w-7" src="img/cpp.png" alt="">
+            <p class="text-indigo-700">C++</p>
+          </div>
+          <div class="flex flex-row gap-1 items-center">
+            <img class="h-7 w-7" src="img/java.png" alt="">
+            <p class="text-indigo-700">Java</p>
+          </div>
+          <div class="flex flex-row items-center gap-1">
+            <img class="h-7 w-7" src="img/html-5.png" alt="">
+            <p class="text-indigo-700">Html</p>
+          </div>
+          <div class="flex flex-row items-center gap-1">
+            <img class="h-7 w-7" src="img/vsc.png" alt="">
+            <p class="text-indigo-700">WPF</p>
+          </div>
+          <div>
+            <img class="h-7 w-7" src="img/sql.png" alt="">
+          </div>
+          <div class="flex flex-row items-center gap-1">
+            <img class="h-7 w-7" src="img/linux.png" alt="">
+            <p class="text-indigo-700">Linux</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Box Projets -->
+      <div class="flex flex-col bg-neutral-800 border border-neutral-700 shadow-lg shadow-black/40 rounded-2xl py-5 gap-4 px-6">
+        <div class="flex flex-row items-center gap-2">
+          <p class="text-xl text-indigo-700">Projets</p>
+        </div>
+        <div class="flex flex-col bg-neutral-700 border border-neutral-700 shadow-lg shadow-black/40 rounded-2xl py-5 gap-4 px-6">
+            <div class="flex flex-row gap-1 items-center">
+                <p class="text-[22px] text-white">Jeu</p>
+                <img class="h-7 w-7" src="img/cpp.png" alt="">
+            </div>
+            <img class="h-70 w-110" src="img/ProjetC++.png" alt="">
+            <p class="text-white">jeu 2D en pixel art vue de dessus qui se joue au clavier</p>
+        </div>
+      </div>
     </div>
+
+    <!-- Box Droite -->
+    <div class="flex flex-col gap-6">
+      <div class="flex flex-col bg-neutral-800 border border-neutral-700 shadow-lg shadow-black/40 rounded-2xl py-5 justify-center items-center gap-4 px-6">
+        <p>Contacter moi !!</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
