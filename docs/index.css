@@ -118,6 +118,7 @@ main{
     font-weight: 600;
     letter-spacing: 0.1em;
     transition: background-color 0.2s ease;
+    width: fit-content;
 }
 
 .btn-projets:hover{
