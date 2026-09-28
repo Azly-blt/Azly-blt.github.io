@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matthieu</title>
+    <title>Matthieu - À propos & Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
@@ -13,67 +13,94 @@
     <img class="image-gradient" src="img/gradient.png" alt="dégradé">
     <div class="layer-blur"></div>
 
-    <div class="container">
-        <header>
-            <img src="img/Moi.jpg" alt="Photo de Matthieu" class="logo">
-            
-            <nav>
-                <a href="index.html">Accueil</a>
-                <a href="projets.html">Projets</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
-    </div>
+    <header>
+        <img src="img/Moi.jpg" alt="Photo de Matthieu" class="logo">
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="projets.html">Projets</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
 
     <main>
-
-        <div class="content-competences">
-            <h1>Mon parcour :</h1>
-                <div class="panel-projet">
-                    <h2>Lycée : </h2>
-                <p>
-                    Durant l'année scolaire 2023-2024, j'ai passer mon BAC STI2D specialite SIN au lycee Charles de Gaulle a Poissy.
-                </p>
-                <h2>Supérieur : </h2>
-                <p>Durant l'année scolaire 2024-2025, j'ai commencé les études supérieures en BUT Informatique à l'IUT d'Orsay en première année. Maintenant je suis en deuxième année de BUT Informatique.</p>
+        <!-- Parcours académique -->
+        <section class="section-block">
+            <h2>Mon parcours</h2>
+            <div class="timeline">
+                
+                <div class="timeline-step">
+                    <div class="step-header">
+                        <span class="step-title">BUT Informatique — IUT d'Orsay</span>
+                        <span class="step-date">2024 — Aujourd'hui</span>
+                    </div>
+                    <p class="step-desc">
+                        Formation axée sur le développement logiciel, les bases de données, le web et l'administration système.
+                    </p>
                 </div>
-        </div>
 
-        <div class="content-competences">
-            <h1>Mes centres d'intérêt :</h1>
-            <div class="panel-projet">
-                <h2>Salle de sport :</h2>
-                    <p>Je me rends 4 fois par semaine à la salle de sport</p>
-                <h2>Kayak-polo : </h2>
-                    <p>Je pratique en club depuis 7 ans. Ce sport atypique se pratique dans un kayak sur l'eau avec un ballon. 
-                        C'est un jeu en équipe qui se joue en 5C5, qui consiste à marquer des buts avec un ballon sur un kayak.
-                        En 2 mi-temps de 10 min chacune, donc un match dure 20 min. Avec mon équipe, nous jouons actuellement au niveau Nationale 3.
+                <div class="timeline-step">
+                    <div class="step-header">
+                        <span class="step-title">Baccalauréat STI2D (Spécialité SIN)</span>
+                        <span class="step-date">2023 — 2024</span>
+                    </div>
+                    <p class="step-desc">
+                        Lycée Charles de Gaulle (Poissy). Premières approches de la programmation, des réseaux et de l'électronique numérique.
                     </p>
-                <h2>Les jeux videos : </h2>
-                    <p>J'aime beaucoup le monde du jeu vidéo que ce soit en PvP (Player vs player) ou en PvE (Player vs Environnement).
-                        Principalement je joue à des jeux PvP tels que : League Of Legends, Valorant, Osu, ApexLegends, Fortnite, Minecraft.
-                        Mais j'ai aussi joué à des jeux PvE tels que : Clair Obscure Expedition33, Elden ring, Mario Kart8 deluxe (Platine : fini tout les grand prix 3 etoiles 200cc compris), Zelda BOTW, Minecraft. 
-                    </p>
-                    <h3>Mes rangs sur ces différents jeux :</h3>
-                        <p>League Of Legends : Emeraud2 31Lp, Valorant : Platine 10 rr, ApexLegends : Platine2, Fortnite : Unreal tout modes de jeux confondu</p>
-                    <a href="https://www.deeplol.gg/summoner/euw/unohana2-mina">Mon profil League of Legends</a>
-            </div>
-        </div>
+                </div>
 
-        <div class="content-competences">
-            <h1>Mes coordonnées :</h1>
-            <div class="panel-competences">
-                <a href="https://www.linkedin.com/in/matthieu-charroin-a62855329" target="_blank"><img src="img/logos/linkedin.svg" alt="LinkedIn"></a> 
-                <a href="https://github.com/Azly-blt" target="_blank"><img src="img/logos/github.svg" alt="GitHub"></a>
-                <a href="mailto:matthieu.charroin@universite-paris-saclay.fr" target="_blank"><img src="img/logos/microsoft-outlook.svg" alt="Outlook"></a>
             </div>
-            <a href="pdf/CV_Matthieu_Charroin.pdf" download="CV_Matthieu_Charroin.pdf" class="btn-projets">
-                Télécharger mon CV
-            </a>
-        </div>
+        </section>
+
+        <!-- Centres d'intérêt -->
+        <section class="section-block">
+            <h2>Centres d'intérêt</h2>
+            <div class="interests-grid">
+                
+                <div class="interest-card">
+                    <span class="interest-badge">Compétition & Équipe</span>
+                    <h3>Kayak-polo</h3>
+                    <p>
+                        Pratique en club depuis 7 ans. Évolution actuelle en <strong>Nationale 3</strong> : un sport d'équipe rapide et stratégique exigeant cohésion et rigueur.
+                    </p>
+                </div>
+
+                <div class="interest-card">
+                    <span class="interest-badge">Discipline & Dépassement</span>
+                    <h3>Musculation</h3>
+                    <p>
+                        Entraînement régulier à raison de 4 séances par semaine. Recherche constante de régularité et d'amélioration personnelle.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact & Liens -->
+        <section class="section-block">
+            <h2>Me contacter</h2>
+            <div class="contact-box">
+                <p class="contact-pitch">
+                    N'hésitez pas à me joindre pour toute opportunité de stage, échange technique ou question sur mes réalisations.
+                </p>
+
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/matthieu-charroin-a62855329" target="_blank" rel="noopener noreferrer" class="contact-icon-btn" title="LinkedIn">
+                        <img src="img/logos/linkedin.svg" alt="LinkedIn">
+                    </a> 
+                    <a href="https://github.com/Azly-blt" target="_blank" rel="noopener noreferrer" class="contact-icon-btn" title="GitHub">
+                        <img src="img/logos/github.svg" alt="GitHub">
+                    </a>
+                    <a href="mailto:matthieu.charroin@universite-paris-saclay.fr" class="contact-icon-btn" title="Email">
+                        <img src="img/logos/microsoft-outlook.svg" alt="Outlook">
+                    </a>
+                </div>
+
+                <a href="pdf/CV_Matthieu_Charroin.pdf" download="CV_Matthieu_Charroin.pdf" class="btn-cv">
+                    📄 Télécharger mon CV
+                </a>
+            </div>
+        </section>
     </main>
-
-    
 
     <footer>
         <p>&copy; 2026 Matthieu — Développeur Passionné</p>

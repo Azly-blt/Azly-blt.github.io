@@ -3,42 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matthieu</title>
+    <title>Matthieu - Accueil</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
+<body class="page-home">
     <img class="image-gradient" src="img/gradient.png" alt="dégradé">
     <div class="layer-blur"></div>
 
-    <div class="container">
-        <header>
-            <img src="img/Moi.jpg" alt="Photo de Matthieu" class="logo">
-            
-            <nav>
-                <a href="#">Accueil</a>
-                <a href="projets.html">Projets</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
-    </div>
+    <header>
+        <img src="img/Moi.jpg" alt="Photo de Matthieu" class="logo">
+        <nav>
+            <a href="index.html" class="active">Accueil</a>
+            <a href="projets.html">Projets</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <main>
-        <div class="content">
-            <h1>Moi, c'est Matthieu</h1>
+    <main class="main-home">
+        <div class="hero-content">
+            <span class="badge-status">Étudiant BUT Informatique</span>
+            
+            <h1>Moi, c'est <span class="highlight">Matthieu</span>.</h1>
 
             <p class="description">
-                Je suis actuellement étudiant en 2ème année de BUT informatique à l'IUT 
-                d'Orsay. Je suis à la recherche d'un stage informatique de 12 semaines à partir du 20 avril.
+                Étudiant à l'IUT d'Orsay, passionné par le développement d'applications web, logicielles et l'univers du jeu vidéo.
             </p>
 
             <div class="buttons">
-                <a href="projets.html" class="btn-projets">Projets &gt;</a>
-                <a href="contact.html" class="btn-contact">Contactez-moi &gt;</a>
+                <a href="projets.html" class="btn-primary">Découvrir mes projets &rarr;</a>
+                <a href="contact.html" class="btn-secondary">En savoir plus / Contact</a>
             </div>
-
         </div>
     </main>
 
